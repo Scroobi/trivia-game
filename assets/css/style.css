@@ -1,0 +1,43 @@
+body {
+    background: url(../images/myhero.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+    background-color: rgba(129, 126, 126, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    max-width: 850px;
+    min-height: 400px;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+.title {
+    margin-top: 1rem; 
+    padding-top: 3.5rem; 
+}
+
+@media all and (max-width: 500px) {
+    
+    .container {
+        width: 500px;
+        height: 450px;
+        padding-top: 1rem;
+    }
+    div {
+        font-size: 1rem; 
+    }
+    .btn {
+        font-size: .75rem; 
+    }
+}
